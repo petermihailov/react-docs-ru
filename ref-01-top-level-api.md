@@ -1,3 +1,11 @@
+---
+id: top-level-api
+title: Top-Level API
+permalink: top-level-api.html
+next: component-api.html
+redirect_from: "/docs/reference.html"
+---
+
 ## React
 `React` - точка входа в React-библиотеку. Если вы используете один из уже собранных пакетов, то он доступен вам глобально; Если вы используете CommonJS-модули, подключите его через `require()`.
 

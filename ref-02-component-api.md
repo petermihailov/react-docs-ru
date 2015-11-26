@@ -1,3 +1,11 @@
+---
+id: component-api
+title: Component API
+permalink: component-api.html
+prev: top-level-api.html
+next: component-specs.html
+---
+
 ## React.Component
 
 Экземпляры React компонента создаются внутри React при рендере. Эти экземпляры повторно используются в последующих рендерах, и могут быть доступны в методах ваших компонентов как `this`. Единственный способ получить обработчик экземпляра React-компонента за пределами React - это сохранять возвращаеме значение в `ReactDOM.render`. Внутри других компонентов вы можете использовать [refs](/react/docs/more-about-refs.html) чтобы достичь тогоже результата.
