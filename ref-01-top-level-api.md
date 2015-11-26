@@ -1,13 +1,5 @@
----
-id: top-level-api
-title: Top-Level API
-permalink: top-level-api.html
-next: component-api.html
-redirect_from: "/docs/reference.html"
----
-
 ## React
-`React` - точка входа в React-библиотеку. Если вы используете один из уже собранных пакетов, то он доступен вам глобально; Если вы используете CommonJS-модули, подключите его через `require()`.
+`React` - точка входа в библиотеку React. Если вы используете один из уже собранных пакетов, то он доступен вам глобально. Если вы используете CommonJS-модули, nj подключите его через `require()`.
 
 
 ### React.Component
@@ -16,7 +8,7 @@ redirect_from: "/docs/reference.html"
 class Component
 ```
 
-Это базовый класс компонентов React, если они объявлены с помощью ES6 классов. Смотрите [Reusable Components](/react/docs/reusable-components.html#es6-classes) для того, чтобы понять как использовать ES6 классы в React. Для просмотра всех предусмотренных базовым классом методов, смотрите [Component API](/react/docs/component-api.html).
+Это базовый класс компонентов React, объявленых с помощью ES6 классов. Смотрите [Reusable Components](/react/docs/reusable-components.html#es6-classes) для того, чтобы понять как использовать ES6 классы в React. Для просмотра всех предусмотренных базовым классом методов, смотрите [Component API](/react/docs/component-api.html).
 
 
 ### React.createClass
