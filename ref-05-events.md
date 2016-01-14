@@ -27,7 +27,7 @@ string type
 
 ## Объединение событий
 
-`SyntheticEvent` обхединяет. Это означает, что объекты `SyntheticEvent` будут переиспользоваться и все свойства будут аннулированы после вызова колбека события.
+`SyntheticEvent` объединяет. Это означает, что объекты `SyntheticEvent` будут переиспользоваться и все свойства будут аннулированы после вызова колбека события.
 Это сделано из-за соображений производительности.
 Таким образом, вы не можете получить доступ к событию в асинхронном режиме.
 
@@ -55,7 +55,7 @@ function onClick(event) {
 
 React нормализует события так, что они имеют стабильные характеристики в различных браузерах.
 
-Обработчики событий ниже срабатывают по событию во всплывающей фазе (bubbling phase). Для регистрации обработчика событий в фазе захвата (capture phase), добавьте `Capture` с именем события; Например, вместо того, чтобы использовать `onClick`, вы можете использовать `onClickCapture` чтобы обработать событие клика в фазе захвата.
+Обработчики событий ниже срабатывают по событию во всплывающей фазе (bubbling phase). Для регистрации обработчика событий в фазе захвата (capture phase), добавьте `Capture` с именем события; Например, вместо того, чтобы использовать `onClick`, вы можете использовать `onClickCapture`, чтобы обработать событие клика в фазе захвата.
 
 
 ### Буфер обмена событий
@@ -129,7 +129,7 @@ onFocus onBlur
 DOMEventTarget relatedTarget
 ```
 
-Эти события фокуса работаю на всех элементах в React DOM, не только на элементах формы.
+Эти события фокуса работают на всех элементах в React DOM, не только на элементах формы.
 
 ### События формы
 
@@ -139,7 +139,7 @@ DOMEventTarget relatedTarget
 onChange onInput onSubmit
 ```
 
-Для подробной информации по событию onChange, см [Forms](/react/docs/forms.html).
+Для подробной информации по событию onChange, смотрите [Forms](/react/docs/forms.html).
 
 
 ### События мыши
@@ -151,8 +151,6 @@ onClick onContextMenu onDoubleClick onDrag onDragEnd onDragEnter onDragExit
 onDragLeave onDragOver onDragStart onDrop onMouseDown onMouseEnter onMouseLeave
 onMouseMove onMouseOut onMouseOver onMouseUp
 ```
-
-События `onMouseEnter` и `onMouseLeave` propagate from the element being left to the one being entered instead of ordinary bubbling and do not have a capture phase.
 
 Свойства:
 
