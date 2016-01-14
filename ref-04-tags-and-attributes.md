@@ -1,6 +1,6 @@
 ## Supported Tags
 
-React старается поддерживать все распространенные елементы. Если вам нужен элемент, которого нет в этом списке, пожалуйста, [напишите сюда](https://github.com/facebook/react/issues/new).
+React старается поддерживать все распространенные элементы. Если вам нужен элемент, которого нет в этом списке, пожалуйста, [напишите сюда](https://github.com/facebook/react/issues/new).
 
 ### HTML элементы
 
@@ -29,19 +29,19 @@ radialGradient rect stop svg text tspan
 Также вам может быть интересен [react-art](https://github.com/facebook/react-art), это библиотека React для рисования, которая может быть отрендерина в Canvas, SVG, или VML (для IE8).
 
 
-## Поддерживаемые аттрибуты
+## Поддерживаемые атрибуты
 
-React поддерживает все `data-*` и `aria-*` аттрибуты, а также каждый атрибут из списка, указанного ниже.
+React поддерживает все `data-*` и `aria-*` атрибуты, а также каждый атрибут из списка, указанного ниже.
 
 > Примечания:
 >
-> Все аттрибуты записываются в верблюжьей нотации (camel-case). Аттрибуты `class` и `for` будут называться соответственно `className` и `htmlFor`, чтобы совпадало со спецификацией DOM API.
+> Все атрибуты записываются в верблюжьей нотации (camel-case). Атрибуты `class` и `for` будут называться соответственно `className` и `htmlFor`, чтобы совпадало со спецификацией DOM API.
 
 Для просмотра списка событий смотрите [Supported Events](/react/docs/events.html).
 
-### HTML аттрибуты
+### HTML атрибуты
 
-Вот такие вот стандартные аттрибуты поддерживаются:
+Вот такие стандартные атрибуты поддерживаются:
 
 ```
 accept acceptCharset accessKey action allowFullScreen allowTransparency alt
@@ -58,7 +58,7 @@ span spellCheck src srcDoc srcSet start step style summary tabIndex target title
 type useMap value width wmode wrap
 ```
 
-В дополнение, поддерживаются следующие нестандартизированные аттрибуты:
+В дополнение, поддерживаются следующие нестандартизированные атрибуты:
 
 - `autoCapitalize autoCorrect` для Mobile Safari.
 - `property` для [Open Graph](http://ogp.me/) мета тегов.
@@ -66,9 +66,9 @@ type useMap value width wmode wrap
 - `unselectable` для Internet Explorer.
 - `results autoSave` для WebKit/Blink полей типа `search`.
 
-Существуют также специфичные React аттрибуты `dangerouslySetInnerHTML` ([подробнее](/react/docs/special-non-dom-attributes.html)), они используются лля непосредственной вставки HTML в компонент.
+Существуют также специфичные React атрибуты `dangerouslySetInnerHTML` ([подробнее](/react/docs/special-non-dom-attributes.html)), они используются для непосредственной вставки HTML в компонент.
 
-### SVG Аттрибуты
+### SVG Атрибуты
 
 ```
 clipPath cx cy d dx dy fill fillOpacity fontFamily
